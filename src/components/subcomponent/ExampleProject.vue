@@ -1,6 +1,6 @@
 <template>
     <div class="Exp w-full" data-aos="zoom-in">
-        <div class="my-2 w-full min-w-fit flex flex-wrap bg-white shadow-sm rounded-2xl p-10 items-center justify-center">
+        <div class="my-2 w-full min-w-90 flex flex-wrap bg-white shadow-sm rounded-2xl p-10 items-center justify-center">
             <div class="w-80 shadow-xl rounded-2xl overflow-hidden"><img :src="pimg" alt="" srcset="" class="shadow-2xl"></div>
             <div class="customwidth min-w-90 flex flex-col justify-start items-center shrink p-10">
                 <span class="text-Primary min-w-full pt-5 text-3xl">{{ pname }}</span>

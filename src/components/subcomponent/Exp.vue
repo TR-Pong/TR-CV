@@ -1,6 +1,6 @@
 <template>
     <div class="Exp w-full" data-aos="zoom-in">
-        <div class="my-1 w-full flex flex-wrap bg-white rounded-2xl min-w-95 py-5">
+        <div class="my-1 w-full flex flex-wrap bg-white rounded-2xl min-w-90 py-5">
             <div class="px-6 py-0 md:py-5 text-left year min-w-50 w-full lg:w-auto flex flex-col justify-center items-center lg:items-start">
                 <div class="text-Primary text-2xl">{{ new Date(DateStart).getFullYear() }} - {{ DateEnd == ""? "Present" : new Date(DateEnd).getFullYear() }}</div>
                 <div class="">{{ diff.years }} year {{ diff.months }} month</div>

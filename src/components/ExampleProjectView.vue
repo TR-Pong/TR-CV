@@ -7,12 +7,15 @@
 <script setup lang="ts">
     import Section from '../views/Section.vue';
     import ExampleProject from './subcomponent/ExampleProject.vue';
+
+    import Example1 from '../assets/example1.png';
+    import Example2 from '../assets/example2.png';
     defineProps(['PageId','PageName']);
 
     const ExampleData = [
         {
             pname: "Mini Zoo Merge",
-            pimg: "../../src/assets/example1.png",
+            pimg: Example1,
             pdesc: "A cute animals mobile game. drop same animal to merge and get score. make high score to no.1 in server",
             button: [
                 {
@@ -29,7 +32,7 @@
         },
         {
             pname: "Poker Dices 3D",
-            pimg: "../../src/assets/example2.png",
+            pimg: Example2,
             pdesc: "Dice game play with your friend enjoy in party.",
             button: [
                 {

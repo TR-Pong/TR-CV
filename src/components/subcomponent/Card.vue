@@ -1,5 +1,5 @@
 <template>
-   <div class="mx-1 bg-white shadow-lg rounded-lg my-1 shrink-0 w-full md:w-[calc(49%)] min-w-95" data-aos="fade-left">
+   <div class="mx-1 bg-white shadow-lg rounded-lg my-1 shrink-0 w-full md:w-[calc(49%)] min-w-90" data-aos="fade-left">
         <div class="px-6 py-5">
             <div class="flex items-start">
                 <fa :icon="['fas','graduation-cap']" class="fa-2xl text-Primary px-4" />
