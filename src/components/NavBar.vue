@@ -15,7 +15,7 @@
     }
 </script>
 <template>
-    <nav class="bg-Primary min-w-90 md:w-full flex items-center justify-center px-4">
+    <nav class="bg-Primary md:w-full flex items-center justify-center px-4">
         <ul class="py-4">
             <li class="inline-flex px-0 md:space-x-2 w-auto md:w-full md:hidden">
                 <button class="text-[0.8rem] md:text-[1.2rem] inline-flex justify-start items-center cursor-pointer w-full" @click="scrollTo('app')">
