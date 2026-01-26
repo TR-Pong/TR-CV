@@ -10,6 +10,7 @@
   --font-Primary: 'Roboto';
   --color-Offwhite: rgba(229, 229, 229, 1);
   --color-BorderOffwhite: rgba(229, 229, 229, 0.92);
+  --text-xs-custom: 0.3rem
 }
 :root {
   font-family: var(--font-Primary);
